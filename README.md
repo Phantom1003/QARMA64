@@ -138,17 +138,17 @@ Choose the matrix M4,2 = Q4,2 for QARMA-64, and the matrix M8,2 = Q8,2 for QARMA
 
 
 
+### SBox
 
+We found an alternative with the same depth but only two fixed points, and only one non-zero component function of algebraic degree 2 instead of three. This S-Box, that we propose for the lightest versions of QARMA is:
 
+<img src="./img/1571384402613.png" alt="1571384402613" style="zoom:80%;" />
 
+We found also the following involutory S-Box with no fixed points:
 
+<img src="./img/1571384419332.png" alt="1571384419332" style="zoom:80%;" />
 
+It may be requested that the S-Box is non-involutory. 
 
-
-
-
-
-
-
-
+<img src="./img/1571384568451.png" alt="1571384568451" style="zoom:80%;" />
 
