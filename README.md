@@ -12,7 +12,7 @@
 
 调柄(tweak)其作用类似于CBC中的初始向量，更换tweak就可以改变密文结果，并且改变tweak的代价很低
 
-- *在AES中修改秘钥的代价是昂贵的，特别是仅改变部分时，会有安全问题【Related Key Attack】*
+- *在AES中修改秘钥的代价是昂贵的，但如果仅改变部分，则会有安全问题【Related Key Attack】*
 
 > **ECB** preserves a lot of the structure of the plaintext in the ciphertext.
 >
