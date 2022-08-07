@@ -1,4 +1,6 @@
 # Learning QARMA
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPhantom1003%2FQARMA64.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FPhantom1003%2FQARMA64?ref=badge_shield)
+
 
 <img src="./img/1571239824841.png" alt="1571239824841" style="zoom: 25%;" />
 
@@ -152,3 +154,7 @@ It may be requested that the S-Box is non-involutory.
 
 <img src="./img/1571384568451.png" alt="1571384568451" style="zoom:80%;" />
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FPhantom1003%2FQARMA64.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FPhantom1003%2FQARMA64?ref=badge_large)
