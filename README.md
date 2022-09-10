@@ -10,9 +10,8 @@
 
 > In addition to the secret key and a plaintext or ciphertext, **TBCs accept a third input, the tweak, which is public. The tweak and key together select the permutation computed by the cipher.**
 
-调柄(tweak)其作用类似于CBC中的初始向量，更换tweak就可以改变密文结果，并且改变tweak的代价很低
-
-- *在AES中修改秘钥的代价是昂贵的，但如果仅改变部分，则会有安全问题【Related Key Attack】*
+The role of tweak is similar to the initial vector in CBC, changing the tweak can change the ciphertext result, and modifying the tweak is lightweight.
+- Modifying AES key is expensive, but if only change part of it, it will be vulnerable to **Related Key Attack**.
 
 > **ECB** preserves a lot of the structure of the plaintext in the ciphertext.
 >
